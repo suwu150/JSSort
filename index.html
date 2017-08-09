@@ -16,17 +16,20 @@
       document.writeln(arrSimple.join());
     </script>
 </div>
+<hr>
 <div>
     2、简单数组自定义排序
     <script type="text/javascript">
       var arrSimple2=new Array(1,8,7,6);
       arrSimple2.sort(function(a,b){
-        return b-a});
+        return b-a}
+        );
       document.writeln(arrSimple2.join());
     </script>
     解释：a,b表示数组中的任意两个元素，若return > 0 b前a后；reutrn < 0 a前b后；a=b时存在浏览器兼容
     简化一下：a-b输出从小到大排序，b-a输出从大到小排序。
 </div>
+<hr>
 <div>
     3、简单对象List自定义属性排序
     <script type="text/javascript">
@@ -47,6 +50,7 @@
       }
     </script>
 </div>
+<hr>
 <div>
     4、简单对象List对可编辑属性的排序
     <script type="text/javascript">
